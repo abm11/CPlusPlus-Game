@@ -1,14 +1,2 @@
-﻿  EnemyDisplayableObject.cpp
-  EnemyDisplayableObject1.cpp
-  EzyabmDisplayableObject.cpp
-  EzyabmEngine.cpp
-  EzyabmStage.cpp
-  EzyabmTileManager.cpp
-  mainfunction.cpp
-  BaseEngine.cpp
-  DisplayableObject.cpp
-  FontManager.cpp
-  JPGImage.cpp
-  TileManager.cpp
-  Generating Code...
-  CourseworkBase.vcxproj -> C:\Users\Aaron\Google Drive\Uni Work\Comp Sci - Yr 2\Semester 2\CPP - C++\Coursework\CPlusPlus-Game\/Debug\CPlusPlus-Game.exe
+﻿  EzyabmDisplayableObject.cpp
+  CourseworkBase.vcxproj -> C:\Users\abm11\Google Drive\Uni Work\Comp Sci - Yr 2\Semester 2\CPP - C++\Coursework\CPlusPlus-Game\/Debug\CPlusPlus-Game.exe

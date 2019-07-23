@@ -17,8 +17,8 @@
 
 using namespace std;
 
-	int m_dSX = 2;
-	int m_dSY = 2;
+int m_dSX = 2;
+int m_dSY = 2;
 
 // Constructor
 EnemyDisplayableObject::EnemyDisplayableObject(BaseEngine* pEngine) :
@@ -66,15 +66,11 @@ void EnemyDisplayableObject::Draw()
 			StoreLastScreenPositionForUndraw();
 
 			time_t start = time(NULL);
-
-
-
 			if (end0 < start)
 			{
 				end0 = (end0 + 1);
 				cout << end0;
 				random = rand() % 4;
-				
 			}
 
 			switch (random) {
@@ -102,6 +98,7 @@ Handle the update action, moving the object and/or handling any game logic
 int circle_x = 0;
 void EnemyDisplayableObject::DoUpdate(int iCurrentTime)
 {
+	//Collison detection?
 		m_dX += m_dSX;
 		m_dY += m_dSY;
 	
@@ -136,7 +133,7 @@ void EnemyDisplayableObject::DoUpdate(int iCurrentTime)
 	m_iCurrentScreenX = (int)(m_dX + 0.5);
 	m_iCurrentScreenY = (int)(m_dY + 0.5);
 	
-	
+	//Set collision detection for walls
 	if ((((m_dX + 32) >= m_dX1) && ((m_dX) <= (m_dX1 + 34))) && (((m_dY1 - 32) <= m_dY) && ((m_dY - 34) <= (m_dY1))))
 	{
 		printf("COLLLIDE");
@@ -144,7 +141,7 @@ void EnemyDisplayableObject::DoUpdate(int iCurrentTime)
 		m_dSY = -m_dSY;
 	}
 
+	//?????????????????
 	GetEngine()->DrawForegroundString(m_iCurrentScreenX-150, m_iCurrentScreenY, "AAAAAAAAAAAAAAA", 0xffffff, NULL);
-	// Ensure that the object gets redrawn on the display, if something changed
 	RedrawObjects();
 }
