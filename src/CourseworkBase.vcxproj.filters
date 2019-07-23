@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ezyabm">
+      <UniqueIdentifier>{5e893444-4905-4599-a71a-f4141f3bcc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ezyabm">
+      <UniqueIdentifier>{adbdd261-7cbb-47ec-901f-aabc10c8cc3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="EzyabmTileManager.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDisplayableObject.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDisplayableObject1.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="EzyabmDisplayableObject.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="EzyabmEngine.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="EzyabmStage.h">
+      <Filter>Header Files\Ezyabm</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDisplayableObject.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDisplayableObject1.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="EzyabmDisplayableObject.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="EzyabmEngine.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="EzyabmStage.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="EzyabmTileManager.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files\Ezyabm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
